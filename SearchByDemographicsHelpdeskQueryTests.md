@@ -33,7 +33,7 @@ PO   = Postcode.
 G    = Gender.
 
 
-- ExactMatch_NotFuzzy_FN_GN*
+1. ExactMatch_NotFuzzy_FN_GN*
 ..* _DOB
 ..* _PO
 ..* _DOB_PO
@@ -41,9 +41,9 @@ G    = Gender.
 ..* _PO_G
 ..* _DOB_PO_G
 
-- MultipleMatch_NotFuzzy
+2. MultipleMatch_NotFuzzy
 
-- ExactMatch_Fuzzy
+3. ExactMatch_Fuzzy
         *This will have Test Cases where synonyms values or misspelled values for the fields will be passed
 
-- MultipleMatch_Fuzzy
+4. MultipleMatch_Fuzzy
