@@ -11,13 +11,13 @@ Both are testing duplicate entryes in the database. Only the ULN is changing.
 ##Missig test cases
 
 - ExactMatch_Fuzzy (Multiple cases for different fields)
-        * The test will pass to the query misspelled parameters, or synonym parameters  
+  - The test will pass to the query misspelled parameters, or synonym parameters  
 
 - MultipleMatch_Fuzzy (Multiple cases for different fields)
-        * The test will pass to the query misspelled parameters, or synonym parameters  
+  - The test will pass to the query misspelled parameters, or synonym parameters  
 
 - ToManyResults
-        * The test wll return the to many results response code. 
+  - The test wll return the to many results response code. 
 
 
 #Tests for search by demographics Helpdesk
@@ -44,6 +44,6 @@ G    = Gender.
 2. MultipleMatch_NotFuzzy
 
 3. ExactMatch_Fuzzy
-        *This will have Test Cases where synonyms values or misspelled values for the fields will be passed
+  - This will have Test Cases where synonyms values or misspelled values for the fields will be passed
 
 4. MultipleMatch_Fuzzy
