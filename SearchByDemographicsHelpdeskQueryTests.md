@@ -34,12 +34,12 @@ G    = Gender.
 
 
 1. ExactMatch_NotFuzzy_FN_GN*
-- _DOB
-- _PO
-- _DOB_PO
-- _DOB_G
-- _PO_G
-- _DOB_PO_G
+..- _DOB
+..- _PO
+..- _DOB_PO
+..- _DOB_G
+..- _PO_G
+..- _DOB_PO_G
 
 2. MultipleMatch_NotFuzzy
 
