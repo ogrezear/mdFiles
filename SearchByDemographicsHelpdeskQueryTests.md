@@ -23,18 +23,23 @@ Both are testing duplicate entryes in the database. Only the ULN is changing.
 #Tests for search by demographics Helpdesk
 
 FN   = Familly Name.
+
 GN   = Given Name.
+
 DOB  = Date Of Birth.
+
 PO   = Postcode.
+
 G    = Gender.
 
+
 - ExactMatch_NotFuzzy_FN_GN*
-                           * _DOB
-                           * _PO
-                           * _DOB_PO
-                           * _DOB_G
-                           * _PO_G
-                           * _DOB_PO_G
+                           - _DOB
+                           - _PO
+                           - _DOB_PO
+                           - _DOB_G
+                           - _PO_G
+                           - _DOB_PO_G
 
 - MultipleMatch_NotFuzzy
 
